@@ -154,7 +154,7 @@ npx drizzle-kit migrate
 ```
 ### 📤 View Inventory
 
-**Method**: `POST`  
+**Method**: `GET`  
 **URL**: `https://sumitinventorymanage.onrender.com/api/inventory`  
 **Description**: Retrieves a specific inventory item by its ID for the authenticated user. Requires authentication via JWT token stored in cookies.
 
