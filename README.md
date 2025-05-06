@@ -13,7 +13,6 @@ This project is a **Secure RESTful API** built with **Node.js**, **Express.js**,
 - **ORM:** Drizzle ORM
 - **Database:** PostgreSQL (via NeonDB)
 - **Auth:** OTP via Email + JWT + Cookies
-- **Validation:** express-validator
 - **Mailer:** Nodemailer
 
 ---
@@ -26,7 +25,6 @@ npm init -y
 npm i express
 npm i drizzle-orm @neondatabase/serverless dotenv
 npm i -D drizzle-kit 
-npm i express-validator
 npm i nodemailer
 npm i jsonwebtoken
 npm i cookie-parser
