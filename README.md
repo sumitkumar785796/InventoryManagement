@@ -52,7 +52,7 @@ npx drizzle-kit migrate
 ### 📤 Register User/Login User (Send OTP)
 
 **Method**: `POST`  
-**URL**: `https://sumitinventorymanage.vercel.app/api/users`  
+**URL**: `https://sumitinventorymanage.onrender.com/api/users`  
 **Description**: Sends an OTP to the user's email for login/registration.
 
 
@@ -66,7 +66,7 @@ npx drizzle-kit migrate
 ### 📤 Verify OTP
 
 **Method**: `POST`  
-**URL**: `https://sumitinventorymanage.vercel.app/api/users/verify`  
+**URL**: `https://sumitinventorymanage.onrender.com/api/users/verify`  
 **Description**:Verifies the OTP, then automatically generates a token and logs the user in.
 
 
@@ -80,7 +80,7 @@ npx drizzle-kit migrate
 ### 📤 Access Profile
 
 **Method**: `GET`  
-**URL**: `https://sumitinventorymanage.vercel.app/api/users/accessprofile`  
+**URL**: `https://sumitinventorymanage.onrender.com/api/users/accessprofile`  
 **Description**:Retrieves the authenticated user's profile details using a valid JWT token stored in cookies.
 
 
@@ -101,7 +101,7 @@ npx drizzle-kit migrate
 ### 📤 Update Profile
 
 **Method**: `PUT`  
-**URL**: `https://sumitinventorymanage.vercel.app/api/users/updateprofile`  
+**URL**: `https://sumitinventorymanage.onrender.com/api/users/updateprofile`  
 **Description**:Allows the authenticated user to update their profile. The user's session is identified using the JWT token stored in cookies.
 
 #### 🔸 Request Body (JSON)
@@ -119,7 +119,7 @@ npx drizzle-kit migrate
 ### 📤 LogOut User
 
 **Method**: `GET`  
-**URL**: `https://sumitinventorymanage.vercel.app/api/users/logout`  
+**URL**: `https://sumitinventorymanage.onrender.com/api/users/logout`  
 **Description**:Logs out the authenticated user by clearing the JWT token stored in cookies.
 
 #### 🔸Output
@@ -133,7 +133,7 @@ npx drizzle-kit migrate
 ### 📤 Add Inventory
 
 **Method**: `POST`  
-**URL**: `https://sumitinventorymanage.vercel.app/api/inventory`  
+**URL**: `https://sumitinventorymanage.onrender.com/api/inventory`  
 **Description**: Adds a new inventory item to the authenticated user's inventory. Requires authentication via JWT token stored in cookies.
 
 #### 🔸 Request Body (JSON)
@@ -155,7 +155,7 @@ npx drizzle-kit migrate
 ### 📤 View Inventory
 
 **Method**: `POST`  
-**URL**: `https://sumitinventorymanage.vercel.app/api/inventory`  
+**URL**: `https://sumitinventorymanage.onrender.com/api/inventory`  
 **Description**: Retrieves a specific inventory item by its ID for the authenticated user. Requires authentication via JWT token stored in cookies.
 
 #### 🔸Output
@@ -181,7 +181,7 @@ npx drizzle-kit migrate
 ### 📤 Single Inventory
 
 **Method**: `GET`  
-**URL**: `https://sumitinventorymanage.vercel.app/api/inventory/1`  
+**URL**: `https://sumitinventorymanage.onrender.com/api/inventory/1`  
 **Description**:Retrieves the details of a single inventory item by its unique ID for the authenticated user. Requires authentication via JWT token stored in cookies.
 
 #### 🔸Output
@@ -205,7 +205,7 @@ npx drizzle-kit migrate
 ### 📤 Update Inventory
 
 **Method**: `PUT`  
-**URL**: `https://sumitinventorymanage.vercel.app/api/inventory/2`  
+**URL**: `https://sumitinventorymanage.onrender.com/api/inventory/2`  
 **Description**: Updates the details of a specific inventory item for the authenticated user. Requires authentication via JWT token stored in cookies.
 #### 🔸 Request Body (JSON)
 ```json
@@ -239,7 +239,7 @@ npx drizzle-kit migrate
 ### 📤 DELETE Inventory
 
 **Method**: `DELETE`  
-**URL**: `https://sumitinventorymanage.vercel.app/api/inventory/2`  
+**URL**: `https://sumitinventorymanage.onrender.com/api/inventory/2`  
 **Description**: Deletes a specific inventory item for the authenticated user. Requires authentication via JWT token stored in cookies.
 
 #### 🔸Output
