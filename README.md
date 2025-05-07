@@ -29,7 +29,7 @@ npm i nodemailer
 npm i jsonwebtoken
 npm i cookie-parser
 npm i -D nodemon
-
+npm i cors
 ```
 ## .env File (add DB URL)
 ```bash
